@@ -1,0 +1,21 @@
+TODO
+Part 1: clean divina commedia
+
+-remove latin parts ?	
+
+Part 2: hyphenation
+-split text in words or verses?
+-write functions for syllabifications 
+	-dipthongs (combination of two adjacent vowels sounds within the same syllable)
+	-tripthongs
+	-dieresi: contrario dei dittonghi, vocale con i pallini separata dal resto
+	-SINALEFE
+		-unificate in una sola posizione la vocale finale d'una parola e quella iniziale della parola successiva
+	-dialefe
+		-contrario della sinalefe https://it.wikipedia.org/wiki/Dialefe	
+-add special tokens 
+	-“<SEP>” and inserted at the beginning of each verse 
+	-the token “<GO>”. To make all verses the same lengths 
+	-special character “<PAD>” to pad every terces to the length of 75 tokens. 
+	-At the end of each verse we appended the symbol “<EOV> “, 
+	-at the end of each sentence “<EOS>”.
