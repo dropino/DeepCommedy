@@ -1,18 +1,14 @@
 TODO
 Part 1: clean divina commedia
+-remove latin parts?	
 
--remove latin parts ?	
+Part 2: hyphenation	results:
+	result	
+		Counter({10: 262, 11: 4446, 12: 12})
+		Counter({10: 306, 11: 4448, 12: 1})
+		Counter({10: 283, 11: 4467, 12: 8})
 
-Part 2: hyphenation
--split text in words or verses?
--write functions for syllabifications 
-	-dipthongs (combination of two adjacent vowels sounds within the same syllable)
-	-tripthongs
-	-dieresi: contrario dei dittonghi, vocale con i pallini separata dal resto
-	-SINALEFE
-		-unificate in una sola posizione la vocale finale d'una parola e quella iniziale della parola successiva
-	-dialefe
-		-contrario della sinalefe https://it.wikipedia.org/wiki/Dialefe	
+Part 3: Tokenization
 -add special tokens 
 	-“<SEP>” and inserted at the beginning of each verse 
 	-the token “<GO>”. To make all verses the same lengths 
