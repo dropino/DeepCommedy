@@ -1,6 +1,7 @@
 TODO
 Part 1: clean divina commedia
--remove latin parts?	
+	done
+	-remove latin parts?	
 
 Part 2: hyphenation	results:
 	result	
@@ -9,9 +10,10 @@ Part 2: hyphenation	results:
 		Counter({10: 283, 11: 4467, 12: 8})
 
 Part 3: Tokenization
--add special tokens 
-	-“<SEP>” and inserted at the beginning of each verse 
-	-the token “<GO>”. To make all verses the same lengths 
-	-special character “<PAD>” to pad every terces to the length of 75 tokens. 
-	-At the end of each verse we appended the symbol “<EOV> “, 
-	-at the end of each sentence “<EOS>”.
+	-remove spaces before <SEP> tokens
+	
+Part 4: Create dataset
+	-Problem: batch00 = batch01
+		perchè? controlla veri
+	
+	
