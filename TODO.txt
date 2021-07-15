@@ -2,6 +2,7 @@ TODO
 Part 1: clean divina commedia
 	done
 	-remove latin parts?	
+	-Remove ; : e altri
 
 Part 2: hyphenation	results:
 	result	
@@ -12,8 +13,8 @@ Part 2: hyphenation	results:
 Part 3: Tokenization
 	-remove spaces before <SEP> tokens
 	
-Part 4: Create dataset
-	-Problem: batch00 = batch01
-		perchè? controlla veri
+Part 4: Create dataset		
+		test 90-5-5 come formato dataset
+Part 5: generate
 	
 	
