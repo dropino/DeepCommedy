@@ -14,7 +14,9 @@ Part 3: Tokenization
 	-remove spaces before <SEP> tokens
 	
 Part 4: Create dataset		
-		test 90-5-5 come formato dataset
+	test 90-5-5 come formato dataset
+		
 Part 5: generate
+
 	
-	
+	-batch = WHOLE CANTO!
